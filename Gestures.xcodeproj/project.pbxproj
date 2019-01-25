@@ -8,24 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		CD2F003721F1369F0001521E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2F003621F1369F0001521E /* AppDelegate.m */; };
-		CD2F003A21F1369F0001521E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2F003921F1369F0001521E /* ViewController.m */; };
 		CD2F003D21F1369F0001521E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2F003B21F1369F0001521E /* Main.storyboard */; };
 		CD2F003F21F136A00001521E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2F003E21F136A00001521E /* Assets.xcassets */; };
 		CD2F004221F136A00001521E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2F004021F136A00001521E /* LaunchScreen.storyboard */; };
 		CD2F004521F136A00001521E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2F004421F136A00001521E /* main.m */; };
+		CD985C5D21FB866500A73923 /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD985C5C21FB866500A73923 /* SwipeViewController.m */; };
+		CD985C6021FB903900A73923 /* RotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD985C5F21FB903900A73923 /* RotateViewController.m */; };
+		CD985C6321FB9C4C00A73923 /* ScreenEdgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD985C6221FB9C4C00A73923 /* ScreenEdgeViewController.m */; };
+		CDBF30B621F144DA00002705 /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBF30B521F144DA00002705 /* PanViewController.m */; };
+		CDBF30B921F144E600002705 /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBF30B821F144E600002705 /* TapViewController.m */; };
+		CDBF30C521F1554B00002705 /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBF30C421F1554B00002705 /* PinchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD2F003221F1369F0001521E /* Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2F003521F1369F0001521E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD2F003621F1369F0001521E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD2F003821F1369F0001521E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD2F003921F1369F0001521E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CD2F003C21F1369F0001521E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD2F003E21F136A00001521E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD2F004121F136A00001521E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD2F004321F136A00001521E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD2F004421F136A00001521E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD985C5B21FB866500A73923 /* SwipeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		CD985C5C21FB866500A73923 /* SwipeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
+		CD985C5E21FB903900A73923 /* RotateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateViewController.h; sourceTree = "<group>"; };
+		CD985C5F21FB903900A73923 /* RotateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateViewController.m; sourceTree = "<group>"; };
+		CD985C6121FB9C4C00A73923 /* ScreenEdgeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenEdgeViewController.h; sourceTree = "<group>"; };
+		CD985C6221FB9C4C00A73923 /* ScreenEdgeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenEdgeViewController.m; sourceTree = "<group>"; };
+		CDBF30B421F144DA00002705 /* PanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
+		CDBF30B521F144DA00002705 /* PanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
+		CDBF30B721F144E600002705 /* TapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		CDBF30B821F144E600002705 /* TapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
+		CDBF30C321F1554B00002705 /* PinchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
+		CDBF30C421F1554B00002705 /* PinchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +75,18 @@
 			children = (
 				CD2F003521F1369F0001521E /* AppDelegate.h */,
 				CD2F003621F1369F0001521E /* AppDelegate.m */,
-				CD2F003821F1369F0001521E /* ViewController.h */,
-				CD2F003921F1369F0001521E /* ViewController.m */,
+				CDBF30C321F1554B00002705 /* PinchViewController.h */,
+				CDBF30C421F1554B00002705 /* PinchViewController.m */,
+				CDBF30B721F144E600002705 /* TapViewController.h */,
+				CDBF30B821F144E600002705 /* TapViewController.m */,
+				CDBF30B421F144DA00002705 /* PanViewController.h */,
+				CDBF30B521F144DA00002705 /* PanViewController.m */,
+				CD985C5B21FB866500A73923 /* SwipeViewController.h */,
+				CD985C5C21FB866500A73923 /* SwipeViewController.m */,
+				CD985C5E21FB903900A73923 /* RotateViewController.h */,
+				CD985C5F21FB903900A73923 /* RotateViewController.m */,
+				CD985C6121FB9C4C00A73923 /* ScreenEdgeViewController.h */,
+				CD985C6221FB9C4C00A73923 /* ScreenEdgeViewController.m */,
 				CD2F003B21F1369F0001521E /* Main.storyboard */,
 				CD2F003E21F136A00001521E /* Assets.xcassets */,
 				CD2F004021F136A00001521E /* LaunchScreen.storyboard */,
@@ -141,7 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2F003A21F1369F0001521E /* ViewController.m in Sources */,
+				CDBF30B621F144DA00002705 /* PanViewController.m in Sources */,
+				CD985C6321FB9C4C00A73923 /* ScreenEdgeViewController.m in Sources */,
+				CD985C6021FB903900A73923 /* RotateViewController.m in Sources */,
+				CDBF30B921F144E600002705 /* TapViewController.m in Sources */,
+				CDBF30C521F1554B00002705 /* PinchViewController.m in Sources */,
+				CD985C5D21FB866500A73923 /* SwipeViewController.m in Sources */,
 				CD2F004521F136A00001521E /* main.m in Sources */,
 				CD2F003721F1369F0001521E /* AppDelegate.m in Sources */,
 			);
